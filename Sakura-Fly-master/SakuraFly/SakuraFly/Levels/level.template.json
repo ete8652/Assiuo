@@ -1,0 +1,38 @@
+{
+    "name": "Level #",
+    "background":"background.jpg",
+    
+    "ball":{
+        "size": [48,48],
+        "position": [512, 700]
+    },
+    
+    "endPoint":{
+        "size": [48,48],
+        "position": [974,180]
+    },
+
+    "walls":[],
+    
+    "stars":[
+        {"size":[42,42], "position":[0,0]},
+    ],
+    
+    "lifts":[
+         {
+             "position": [0, 0],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": 0
+         }
+    ],
+    "cannons":[
+       {
+           "orientation":"right",
+           "wating": 5,
+           "position":[50, 345],
+           "distance":500
+       }
+    ]
+}

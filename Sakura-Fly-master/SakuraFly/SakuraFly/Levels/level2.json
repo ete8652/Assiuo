@@ -1,0 +1,57 @@
+{
+    "name": "Level 2",
+    "background":"backgroundb.jpg",
+    "background2": "backanim2.png",
+    "ball":{
+        "size": [64,64],
+        "position": [50, 620]
+    },
+    
+    "endPoint":{
+        "size":[94,94],
+        "position": [1250,60]
+    },
+
+    "walls":[
+         {
+             "size":[200, 20],
+             "position":[100, 545]
+         },
+         {
+             "size":[200, 20],
+             "position":[400, 450]
+         },
+         {
+             "size":[200, 20],
+             "position":[700, 300]
+         },
+         {
+             "size":[200, 20],
+             "position":[950, 150]
+         },
+         {
+             "size":[300, 20],
+             "position":[1200, 20]
+         }
+    ],
+    "stars":[
+         {
+             "size":[42, 42],
+             "position":[100, 575]
+         },
+         {
+             "size":[42, 42],
+             "position":[400, 480]
+         },
+         {
+             "size":[42, 42],
+             "position":[700, 330]
+         },
+         {
+             "size":[42, 42],
+             "position":[950 ,180]
+         }
+    ],
+    "lifts":[],
+    "cannons":[]
+}

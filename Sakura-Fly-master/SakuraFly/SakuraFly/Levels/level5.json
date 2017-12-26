@@ -1,0 +1,86 @@
+{
+    "name": "Level 5",
+    "background":"background4.jpg",
+    "background2":"backanim1.png",
+    
+    "ball":{
+        "size": [48,48],
+        "position": [25, 160]
+    },
+    
+    "endPoint":{
+        "size": [48,48],        
+        "position": [990,50]
+    },
+
+    "walls":[
+        {
+            "size":[200, 20],
+            "position":[100, 120]
+        },
+        {
+            "size":[200, 20],
+            "position":[100, 350]
+         },
+         {
+             "size":[350, 20],
+             "position":[750, 300]
+         },
+         {
+             "size":[380, 20],
+             "position":[700, 550]
+         },
+         {
+             "size":[200, 20],
+             "position":[300, 550]
+         }
+         ,
+         {
+             "size":[220, 20],
+             "position":[200, 650],
+             "angle": -90
+         }
+    ],
+    
+    "stars":[
+        {"size":[42,42], "position":[50, 380]},
+        {"size":[42,42], "position":[250,580]},
+        {"size":[42,42], "position":[600,580]},
+        {"size":[42,42], "position":[700,580]},
+        {"size":[42,42], "position":[800,580]},
+        {"size":[42,42], "position":[990,480]},
+        {"size":[42,42], "position":[990,380]},
+        {"size":[42,42], "position":[990,280]},
+    ],
+    
+    "lifts":[
+         {
+             "position": [250, 120],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": 230
+         },
+         {
+             "position": [350, 350],
+             "pauseTime": 2,
+             "speedTime": 4,
+             "moveX": 105,
+             "moveY": 200
+         }
+    ],
+    "cannons":[
+       {
+           "orientation":"left",
+           "wating": 5,
+           "position":[670, 335],
+           "distance":850
+       },
+       {
+           "orientation":"right",
+           "wating": 5,
+           "position":[830, 335],
+           "distance":500
+       }
+    ]
+}

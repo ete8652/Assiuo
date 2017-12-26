@@ -1,0 +1,97 @@
+{
+    "name": "Level 3",
+    "background":"backgroundc.jpg",
+    "background2": "backanim1.png",
+    "ball":{
+        "size": [48,48],
+        "position": [667, 700]
+    },
+    
+    "endPoint":{
+        "size": [48,48],        
+        "position": [1025,180]
+    },
+
+    "walls":[
+         {
+             "size": [200, 20],
+             "position": [667, 580]
+         },
+         {
+             "size": [100, 20],
+             "position":[290, 500]
+         },
+         {
+             "size": [100, 20],
+             "position":[1025, 500]
+         },
+         {
+             "size": [200, 20],
+             "position":[667, 400]
+         },
+         {
+             "size": [100, 20],
+             "position":[290, 300]
+         },
+         {
+             "size": [100, 20],
+             "position":[1025, 300]
+         },
+         {
+             "size": [100, 20],
+             "position":[290, 150]
+         },
+         {
+             "size": [100, 20],
+             "position":[1025, 150]
+         }
+    ],
+    
+    "stars":[
+        {"size":[42,42], "position":[290,530]},
+        {"size":[42,42], "position":[1025,530]},
+        {"size":[42,42], "position":[290,330]},
+        {"size":[42,42], "position":[667,430]},
+        {"size":[42,42], "position":[1025,330]},
+        {"size":[42,42], "position":[290,180]}
+    ],
+    "lifts":[
+         {
+             "position": [715, 500],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 220,
+             "moveY": 0
+         },
+         {
+             "position": [615, 500],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": -220,
+             "moveY": 0
+         },
+         {
+             "position": [715, 300],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 220,
+             "moveY": 0
+         },
+         {
+             "position": [615, 300],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": -220,
+             "moveY": 0
+         }
+         ,
+         {
+             "position": [390, 150],
+             "pauseTime": 0,
+             "speedTime": 5,
+             "moveX": 540,
+             "moveY": 0
+         }
+    ],
+    "cannons":[]
+}

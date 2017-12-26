@@ -1,0 +1,71 @@
+{
+    "name": "Level 10",
+    "background":"background2x.jpg",
+    "background2":"backanim1.png",
+    "ball":{
+        "size": [48,48],
+        "position": [50, 640]
+    },
+    
+    "endPoint":{
+        "size": [48,48],
+        "position": [1000,60]
+    },
+
+    "walls":[
+        {"size":[100,20], "position":[50,600]},
+        {"size":[300,20], "position":[90,455], "angle": -90},
+        {"size":[150,20], "position":[190,600], "angle":90},
+             
+        {"size":[200,20], "position":[290,450], "angle":90},
+        {"size":[220,20], "position":[290,450]},
+        {"size":[120,20], "position":[240,350]},
+             
+        {"size":[150,20], "position":[700,600]},
+        {"size":[150,20], "position":[840,570], "angle":-25},
+             
+        {"size":[150,20], "position":[970,400]},
+        {"size":[90, 20], "position":[1050,435], "angle":90},
+        {"size":[150,20], "position":[830,370], "angle":25},
+         
+        {"size":[120,20], "position":[1280,200]},
+             
+         {"size":[40,40], "position":[1000,20]}
+             
+    ],
+    
+    "stars":[
+        {"size":[42,42], "position":[250,480]},
+        {"size":[42,42], "position":[350,480]},
+        {"size":[42,42], "position":[250,380]},
+
+        {"size":[42,42], "position":[700,630]},
+        {"size":[42,42], "position":[980,430]},
+        {"size":[42,42], "position":[1280,230]},
+    ],
+    
+    "lifts":[
+         {
+             "position": [400, 100],
+             "pauseTime": 2,
+             "speedTime": 5,
+             "moveX": -300,
+             "moveY": 0
+         },
+         {
+             "position": [500, 100],
+             "pauseTime": 2,
+             "speedTime": 5,
+             "moveX": 0,
+             "moveY": 550
+         },
+         {
+             "position": [1170, 200],
+             "pauseTime": 0,
+             "speedTime": 8,
+             "moveX": -500,
+             "moveY": 0
+         }
+    ],
+    "cannons":[]
+}

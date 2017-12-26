@@ -1,0 +1,106 @@
+{
+    "name": "Level 6",
+    "background": "background2.jpg",
+    "background2": "backanim1.png",
+    "time": null,
+
+    "ball":{
+        "size": [48,48],
+        "position": [50,600]
+    },
+    
+    "endPoint":{
+        "size": [48,48],        
+        "position": [1300, 85]
+    },
+    
+    "stars": [
+        {
+            "size":[32,32],
+            "position":[200, 575]
+        },
+        {
+            "size":[32,32],
+            "position":[1100, 470]
+        },
+        {
+            "size":[32,32],
+            "position":[50, 80]
+        },
+        {
+            "size":[32,32],
+            "position":[150, 80]
+        }
+    ],
+
+    "walls":[
+        {
+           "size": [300, 20],
+           "position":[150, 545]
+        },
+        {
+            "size": [300, 20],
+            "position":[1186, 445]
+        },
+        {
+            "size": [150, 20],
+            "position":[370, 525],
+            "angle": -15.0
+         },
+         {
+             "size": [200, 20],
+             "position":[0, 320],
+         },
+         {
+             "size": [200, 20],
+             "position": [1250, 50]
+         }
+             
+    ],
+    "cannons":[
+        {
+           "orientation":"left",
+           "wating": 8,
+           "position":[1250, 490],
+           "distance":700
+        },
+        {
+           "orientation":"right",
+           "wating": 5,
+           "position":[60, 360],
+           "distance":500
+        }
+               
+    ],
+    
+    "lifts":[
+        {
+            "position": [595, 445],
+            "pauseTime": 2,
+            "speedTime": 2,
+            "moveX": 390,
+            "moveY": 0
+        },
+        {
+             "position": [500, 200],
+             "pauseTime": 0,
+             "speedTime": 3,
+             "moveX": 0,
+             "moveY": 300
+        },
+        {
+             "position": [400, 250],
+             "pauseTime": 0,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": -50
+        },
+        {
+            "position": [1100, 50],
+            "pauseTime": 2,
+            "speedTime": 10,
+            "moveX": -1050,
+            "moveY": 0
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Level 1",
+    "background":"ChooseLevelBackground.jpg",
+    "background2": "backanim1.png",
+    
+    "ball":{
+        "size": [60,60],
+        "position": [100, 600]
+    },
+    
+    "endPoint":{
+        "size":[70,70],
+        "position": [200,140]
+    },
+
+    "walls":[
+         {
+             "size":[1250, 20],
+             "position":[567, 400]
+         },
+         {
+             "size":[1334, 20],
+             "position":[667, 100]
+         }
+    ],
+    "stars":[
+         {
+             "size":[42, 42],
+             "position":[100, 430]
+         },
+         {
+             "size":[42, 42],
+             "position":[400, 430]
+         },
+         {
+             "size":[42, 42],
+             "position":[700, 430]
+         },
+         {
+             "size":[42, 42],
+             "position":[950 ,430]
+         }
+    ],
+    "lifts":[],
+    "cannons":[]
+}

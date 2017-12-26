@@ -1,0 +1,92 @@
+{
+    "name": "Level 7",
+    "background":"backOKOk.jpg",
+    "background2":"backanim1.png",
+    "ball":{
+        "size": [48,48],
+        "position": [50, 200]
+    },
+    
+    "endPoint":{
+        "size": [48,48],
+        "position": [50,210]
+    },
+
+    "walls":[
+        {"size":[100,20], "position":[50, 180]},
+        {"size":[100,20], "position":[970, 180]},
+        {"size":[100,20], "position":[970, 350]},
+        {"size":[100,20], "position":[970, 500]},
+        {"size":[100,20], "position":[50, 500]},
+        {"size":[100,20], "position":[600,150]},
+        {"size":[100,20], "position":[600,350]},
+        {"size":[100,20], "position":[600,500]},
+        {"size":[100,20], "position":[260,500]}
+    ],
+    
+    "stars":[
+        {"size":[42,42], "position":[50,530]},
+        {"size":[42,42], "position":[260,530]},
+        {"size":[42,42], "position":[600,530]},
+        {"size":[42,42], "position":[600,380]},
+        {"size":[42,42], "position":[600,180]},
+    ],
+    
+    "lifts":[
+         {
+             "position": [155, 180],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": 100
+         },
+         {
+             "position": [155, 500],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": -100
+         },
+         {
+             "position": [255, 280],
+             "pauseTime": 0,
+             "speedTime": 3,
+             "moveX": 250,
+             "moveY": 0
+         },
+         {
+            "position": [700, 150],
+            "pauseTime": 0,
+            "speedTime": 3,
+            "moveX": 0,
+            "moveY": 350
+         },
+        {
+            "position": [360, 500],
+            "pauseTime": 0,
+            "speedTime": 3,
+            "moveX": 135,
+            "moveY": 0
+        }
+    ],
+    "cannons":[
+        {
+           "orientation":"left",
+           "wating": 5,
+           "position":[970, 525],
+           "distance":700
+        },
+        {
+           "orientation":"left",
+           "wating": 3,
+           "position":[970, 380],
+           "distance":900
+        },
+        {
+            "orientation":"left",
+            "wating": 2,
+            "position":[970, 210],
+            "distance":400
+        }
+    ]
+}

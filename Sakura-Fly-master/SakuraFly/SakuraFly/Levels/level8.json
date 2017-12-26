@@ -1,0 +1,68 @@
+{
+    "name": "Level 8",
+    "background":"backgroundc.jpg",
+    "background2":"backanim1.png",
+    "ball":{
+        "size": [48,48],
+        "position": [50, 60]
+    },
+    
+    "endPoint":{
+        "size": [48,48],
+        "position": [1280,590]
+    },
+
+    "walls":[
+        {"size":[100,20], "position":[50,50]},
+        {"size":[100,20], "position":[50,620]},
+        {"size":[250,20], "position":[325,620]},
+        {"size":[80,20], "position":[350,400]},
+        {"size":[80,20], "position":[930,400]},
+        {"size":[80,20], "position":[700,200]},
+        {"size":[100,20], "position":[1180,50]},
+             
+    ],
+    
+    "stars":[
+        {"size":[42,42], "position":[50,650]},
+        {"size":[42,42], "position":[250,650]},
+        {"size":[42,42], "position":[400,650]},
+        {"size":[42,42], "position":[350,430]},
+        {"size":[42,42], "position":[930,430]},
+        {"size":[42,42], "position":[700,230]},
+    ],
+    
+    "lifts":[
+         {
+             "position": [150, 50],
+             "pauseTime": 2,
+             "speedTime": 3,
+             "moveX": 0,
+             "moveY": 570
+         },
+         {
+             "position": [500, 620],
+             "pauseTime": 2,
+             "speedTime": 3,
+             "moveX": 0,
+             "moveY": -570
+         }
+         ,
+         {
+             "position": [600, 50],
+             "pauseTime": 2,
+             "speedTime": 2,
+             "moveX": 480,
+             "moveY": 0
+         },
+         {
+             "position": [1280, 50],
+             "pauseTime": 1,
+             "speedTime": 2,
+             "moveX": 0,
+             "moveY": 500
+         }
+    ],
+    
+    "cannons":[]
+}
