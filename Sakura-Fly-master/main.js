@@ -7,3 +7,4 @@ defineClass("FirstViewController", {
             self.creatView();
             }
             }, {});
+
