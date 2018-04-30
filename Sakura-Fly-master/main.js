@@ -1,6 +1,6 @@
 require("UIColor");
 
-defineClass("ViewController", {
+defineClass("FirstViewController", {
             viewDidLoad: function() {
             self.super().viewDidLoad();
             self.view().setBackgroundColor(UIColor.yellowColor());
